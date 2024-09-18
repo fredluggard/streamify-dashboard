@@ -1,0 +1,120 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "active": true },
+    { "id": 2, "name": "Jane Doe", "active": false },
+    { "id": 3, "name": "Alex Smith", "active": true },
+    { "id": 4, "name": "Emily Johnson", "active": false },
+    { "id": 5, "name": "Michael Brown", "active": true },
+    { "id": 6, "name": "Sarah Davis", "active": true },
+    { "id": 7, "name": "David Wilson", "active": false },
+    { "id": 8, "name": "Emma Martinez", "active": true },
+    { "id": 9, "name": "Chris Taylor", "active": false },
+    { "id": 10, "name": "Olivia Anderson", "active": true }
+  ],
+  "streams": [
+    {
+      "id": 1,
+      "songName": "Song A",
+      "artist": "Artist X",
+      "dateStreamed": "2023-09-01",
+      "streamCount": 1000,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "songName": "Song B",
+      "artist": "Artist Y",
+      "dateStreamed": "2023-09-01",
+      "streamCount": 1500,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "songName": "Song C",
+      "artist": "Artist Z",
+      "dateStreamed": "2023-09-02",
+      "streamCount": 2000,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "songName": "Song D",
+      "artist": "Artist W",
+      "dateStreamed": "2023-09-02",
+      "streamCount": 2500,
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "songName": "Song E",
+      "artist": "Artist V",
+      "dateStreamed": "2023-09-03",
+      "streamCount": 3000,
+      "userId": 5
+    },
+    {
+      "id": 6,
+      "songName": "Song F",
+      "artist": "Artist U",
+      "dateStreamed": "2023-09-03",
+      "streamCount": 3500,
+      "userId": 6
+    },
+    {
+      "id": 7,
+      "songName": "Song G",
+      "artist": "Artist T",
+      "dateStreamed": "2023-09-04",
+      "streamCount": 4000,
+      "userId": 7
+    },
+    {
+      "id": 8,
+      "songName": "Song H",
+      "artist": "Artist S",
+      "dateStreamed": "2023-09-04",
+      "streamCount": 4500,
+      "userId": 8
+    },
+    {
+      "id": 9,
+      "songName": "Song I",
+      "artist": "Artist R",
+      "dateStreamed": "2023-09-05",
+      "streamCount": 5000,
+      "userId": 9
+    },
+    {
+      "id": 10,
+      "songName": "Song J",
+      "artist": "Artist Q",
+      "dateStreamed": "2023-09-05",
+      "streamCount": 5500,
+      "userId": 10
+    }
+  ],
+  "revenue": [
+    { "source": "Subscriptions", "amount": 50000 },
+    { "source": "Ads", "amount": 15000 },
+    { "source": "Merchandise", "amount": 12000 },
+    { "source": "Partnerships", "amount": 8000 },
+    { "source": "Events", "amount": 7000 },
+    { "source": "Sponsorships", "amount": 6000 },
+    { "source": "Donations", "amount": 3000 },
+    { "source": "Licensing", "amount": 4000 },
+    { "source": "Royalties", "amount": 2500 },
+    { "source": "Affiliate", "amount": 2000 }
+  ],
+  "songs": [
+    { "id": 1, "title": "Song A", "artist": "Artist X", "streams": 10000 },
+    { "id": 2, "title": "Song B", "artist": "Artist Y", "streams": 8500 },
+    { "id": 3, "title": "Song C", "artist": "Artist Z", "streams": 9500 },
+    { "id": 4, "title": "Song D", "artist": "Artist W", "streams": 11000 },
+    { "id": 5, "title": "Song E", "artist": "Artist V", "streams": 12500 },
+    { "id": 6, "title": "Song F", "artist": "Artist U", "streams": 14000 },
+    { "id": 7, "title": "Song G", "artist": "Artist T", "streams": 13000 },
+    { "id": 8, "title": "Song H", "artist": "Artist S", "streams": 14500 },
+    { "id": 9, "title": "Song I", "artist": "Artist R", "streams": 15000 },
+    { "id": 10, "title": "Song J", "artist": "Artist Q", "streams": 16000 }
+  ]
+}
