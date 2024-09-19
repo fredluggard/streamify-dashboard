@@ -3,13 +3,14 @@ import "./App.css";
 import { user } from "./assets";
 import { DashboardLayout } from "./components/Layout";
 import { CiSearch } from "react-icons/ci";
+import MetricCard from "./components/DashboardCards/MetricCard";
 
 function App() {
   return (
     <>
       <div>
         <DashboardLayout>
-          <div className="mx-[3.125rem] mt-[1.5rem]">
+          <div className="flex flex-col gap-10 mx-[3.125rem] mt-[1.5rem]">
             <nav className="flex justify-between items-center">
               {/* Search bar */}
               <div className="md:w-[43.75rem] md:h-[45px] border border-gray-800 rounded-full bg-gray-800 px-2 flex gap-1 items-center">
@@ -31,10 +32,9 @@ function App() {
             {/* main content */}
             <div>
               <div className="flex flex-col">
-                <h1>Total Users</h1>
-                <div>
-                  <h2>100k</h2>
-                </div>
+                <MetricCard />
+                <MetricCard />
+                <MetricCard />
               </div>
             </div>
           </div>

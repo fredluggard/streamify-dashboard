@@ -8,7 +8,8 @@ import { IoSettingsOutline } from "react-icons/io5";
 export const DashboardLayout = ({ children }) => {
   return (
     <div className="flex md:w-screen md:h-screen">
-      <div className="relative md:w-[15%] md:h-screen text-white bg-gray-800">
+      {/* Side Bar */}
+      <div className="relative md:min-w-[12%] md:w-[15%] md:h-screen text-white bg-gray-800">
         <section className="flex gap-1 justify-center items-center md:py-[2rem]">
           <img className="md:w-[1.875rem]" src={logo} alt="logo" />
           <h1 className="text-[1.125rem]">Streamify</h1>
@@ -43,7 +44,11 @@ export const DashboardLayout = ({ children }) => {
           </div>
         </section>
       </div>
-      <div className="w-full h-full bg-gray-900 text-white">{children}</div>
+
+      {/* Main Content */}
+      <div className="w-full h-full overflow-y-scroll bg-gray-900 text-white">
+        {children}
+      </div>
     </div>
   );
 };

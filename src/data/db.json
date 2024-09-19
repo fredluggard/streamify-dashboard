@@ -1,4 +1,70 @@
 {
+  "growthData": [
+    {
+      "name": "January",
+      "users": 1000,
+      "uv": 1200,
+      "pv": 800,
+      "growthRate": 0
+    },
+    {
+      "name": "February",
+      "users": 1500,
+      "uv": 1800,
+      "pv": 1400,
+      "growthRate": 50
+    },
+    {
+      "name": "March",
+      "users": 2200,
+      "uv": 2500,
+      "pv": 2000,
+      "growthRate": 46.67
+    },
+    {
+      "name": "April",
+      "users": 3000,
+      "uv": 3400,
+      "pv": 2700,
+      "growthRate": 36.36
+    },
+    {
+      "name": "May",
+      "users": 4000,
+      "uv": 4500,
+      "pv": 3600,
+      "growthRate": 33.33
+    },
+    {
+      "name": "June",
+      "users": 5200,
+      "uv": 5800,
+      "pv": 4700,
+      "growthRate": 30
+    },
+    {
+      "name": "July",
+      "users": 6800,
+      "uv": 7500,
+      "pv": 6000,
+      "growthRate": 30.77
+    },
+    {
+      "name": "August",
+      "users": 8800,
+      "uv": 9700,
+      "pv": 7800,
+      "growthRate": 29.41
+    },
+    {
+      "name": "September",
+      "users": 11500,
+      "uv": 12800,
+      "pv": 10300,
+      "growthRate": 30.68
+    }
+  ],
+
   "users": [
     { "id": 1, "name": "John Doe", "active": true },
     { "id": 2, "name": "Jane Doe", "active": false },

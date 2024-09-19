@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { UserProvider } from "./context/usersData.jsx";
 
 const queryClient = new QueryClient();
 
@@ -23,7 +24,9 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* Provide react-query context */}
     <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
+      <UserProvider>
+        <RouterProvider router={router} />
+      </UserProvider>
     </QueryClientProvider>
   </StrictMode>
 );
