@@ -1,16 +1,29 @@
 import React, { createContext, useState, useContext } from "react";
+import { FormatNum } from "../utils/FormatNum";
 
 const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
   const [totalUsers, setNumberOfUsers] = useState(0);
+  const [activeUsers, setActiveUsers] = useState(0);
 
   const updateNumberOfUsers = (newNumber) => {
-    setNumberOfUsers(newNumber);
+    setNumberOfUsers(FormatNum(newNumber));
+  };
+
+  const updateActiveUsers = (newNumber) => {
+    setActiveUsers(FormatNum(newNumber));
   };
 
   return (
-    <UserContext.Provider value={{ totalUsers, updateNumberOfUsers }}>
+    <UserContext.Provider
+      value={{
+        totalUsers,
+        updateNumberOfUsers,
+        activeUsers,
+        updateActiveUsers,
+      }}
+    >
       {children}
     </UserContext.Provider>
   );

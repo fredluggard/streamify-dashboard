@@ -1,13 +1,21 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 
-const fetchData = () => {
-  return axios.get("http://localhost:4000/growthData");
+const url = "http://localhost:4000";
+
+const fetchData = (endpoint) => {
+  return axios.get(`${url}/${endpoint}`);
 };
 
-export const useFetchUsersData = ({ enabled, onError }) => {
-  return useQuery("user-growth", fetchData, {
+export const useFetchUsersData = ({
+  endpoint,
+  enabled,
+  onSuccess,
+  onError,
+}) => {
+  return useQuery("user-growth", () => fetchData(endpoint), {
     enabled,
+    onSuccess,
     onError,
     refetchOnWindowFocus: true,
     refetchIntervalInBackground: true,

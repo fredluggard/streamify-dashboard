@@ -4,6 +4,7 @@ import { user } from "./assets";
 import { DashboardLayout } from "./components/Layout";
 import { CiSearch } from "react-icons/ci";
 import MetricCard from "./components/DashboardCards/MetricCard";
+import ActiveUsersCard from "./components/DashboardCards/ActiveUsersCard";
 
 function App() {
   return (
@@ -31,10 +32,11 @@ function App() {
 
             {/* main content */}
             <div>
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-4">
                 <MetricCard />
-                <MetricCard />
-                <MetricCard />
+                <div>
+                  <ActiveUsersCard />
+                </div>
               </div>
             </div>
           </div>

@@ -2,66 +2,84 @@
   "growthData": [
     {
       "name": "January",
-      "users": 1000,
+      "users": 1070,
       "uv": 1200,
       "pv": 800,
-      "growthRate": 0
+      "growthRate": 0,
+      "activeUsers": 790,
+      "percentActive": 30
     },
     {
       "name": "February",
-      "users": 1500,
+      "users": 8580,
       "uv": 1800,
       "pv": 1400,
-      "growthRate": 50
+      "growthRate": 80,
+      "activeUsers": 6800,
+      "percentActive": 34.6
     },
     {
       "name": "March",
       "users": 2200,
       "uv": 2500,
       "pv": 2000,
-      "growthRate": 46.67
+      "growthRate": 46.67,
+      "activeUsers": 1870,
+      "percentActive": 37.0
     },
     {
       "name": "April",
-      "users": 3000,
+      "users": 3274,
       "uv": 3400,
       "pv": 2700,
-      "growthRate": 36.36
+      "growthRate": 36.36,
+      "activeUsers": 1578,
+      "percentActive": 39.3
     },
     {
       "name": "May",
-      "users": 4000,
+      "users": 2583,
       "uv": 4500,
       "pv": 3600,
-      "growthRate": 33.33
+      "growthRate": 23.12,
+      "activeUsers": 1406,
+      "percentActive": 43.1
     },
     {
       "name": "June",
-      "users": 5200,
+      "users": 5290,
       "uv": 5800,
       "pv": 4700,
-      "growthRate": 30
+      "growthRate": 30,
+      "activeUsers": 2780,
+      "percentActive": 50.0
     },
     {
       "name": "July",
-      "users": 6800,
+      "users": 6807,
       "uv": 7500,
       "pv": 6000,
-      "growthRate": 30.77
+      "growthRate": 30.77,
+      "activeUsers": 4260,
+      "percentActive": 52.5
     },
     {
       "name": "August",
-      "users": 8800,
+      "users": 8808,
       "uv": 9700,
       "pv": 7800,
-      "growthRate": 29.41
+      "growthRate": 29.41,
+      "activeUsers": 3572,
+      "percentActive": 56.5
     },
     {
       "name": "September",
-      "users": 11500,
+      "users": 11507,
       "uv": 12800,
       "pv": 10300,
-      "growthRate": 30.68
+      "growthRate": 30.68,
+      "activeUsers": 9723,
+      "percentActive": 58.7
     }
   ],
 
