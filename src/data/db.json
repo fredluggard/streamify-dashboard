@@ -83,6 +83,81 @@
     }
   ],
 
+  "totalStreamsData": [
+    {
+      "month": "January",
+      "streams": 150000,
+      "peakStreams": 45000,
+      "averageStreamsPerDay": 5000,
+      "growthRate": 0,
+      "isGrowthPositive": false
+    },
+    {
+      "month": "February",
+      "streams": 200000,
+      "peakStreams": 60000,
+      "averageStreamsPerDay": 7150,
+      "growthRate": 33.33,
+      "isGrowthPositive": true
+    },
+    {
+      "month": "March",
+      "streams": 250000,
+      "peakStreams": 70000,
+      "averageStreamsPerDay": 8000,
+      "growthRate": 25.00,
+      "isGrowthPositive": true
+    },
+    {
+      "month": "April",
+      "streams": 180000,
+      "peakStreams": 50000,
+      "averageStreamsPerDay": 6000,
+      "growthRate": -28.00,
+      "isGrowthPositive": false
+    },
+    {
+      "month": "May",
+      "streams": 300000,
+      "peakStreams": 90000,
+      "averageStreamsPerDay": 9700,
+      "growthRate": 66.67,
+      "isGrowthPositive": true
+    },
+    {
+      "month": "June",
+      "streams": 350000,
+      "peakStreams": 100000,
+      "averageStreamsPerDay": 11667,
+      "growthRate": 16.67,
+      "isGrowthPositive": true
+    },
+    {
+      "month": "July",
+      "streams": 400000,
+      "peakStreams": 110000,
+      "averageStreamsPerDay": 13000,
+      "growthRate": 14.29,
+      "isGrowthPositive": true
+    },
+    {
+      "month": "August",
+      "streams": 450000,
+      "peakStreams": 125000,
+      "averageStreamsPerDay": 14500,
+      "growthRate": 12.50,
+      "isGrowthPositive": true
+    },
+    {
+      "month": "September",
+      "streams": 500000,
+      "peakStreams": 130000,
+      "averageStreamsPerDay": 15500,
+      "growthRate": 11.11,
+      "isGrowthPositive": true
+    }
+  ],
+
   "users": [
     { "id": 1, "name": "John Doe", "active": true },
     { "id": 2, "name": "Jane Doe", "active": false },

@@ -13,7 +13,7 @@ export const useFetchUsersData = ({
   onSuccess,
   onError,
 }) => {
-  return useQuery("user-growth", () => fetchData(endpoint), {
+  return useQuery([endpoint], () => fetchData(endpoint), {
     enabled,
     onSuccess,
     onError,

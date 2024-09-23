@@ -6,7 +6,7 @@ import { useUserContext } from "../../context/usersData";
 const MetricCard = () => {
   const { totalUsers } = useUserContext();
   return (
-    <div className="md:w-full md:h-[430px] flex flex-col bg-blue-800 shadow-md rounded-lg p-5">
+    <div className="md:w-full md:h-[430px] flex flex-col bg-gray-800 shadow-md rounded-lg p-5">
       <section className="md:ml-4">
         <div className="flex gap-2 items-center">
           <HiOutlineUsers size={20} />

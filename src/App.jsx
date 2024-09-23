@@ -5,6 +5,9 @@ import { DashboardLayout } from "./components/Layout";
 import { CiSearch } from "react-icons/ci";
 import MetricCard from "./components/DashboardCards/MetricCard";
 import ActiveUsersCard from "./components/DashboardCards/ActiveUsersCard";
+import ActiveUsersPieCard from "./components/DashboardCards/ActiveUsersPieCard";
+import TotalStreamsCard from "./components/DashboardCards/TotalStreamsCard";
+import RevenueCard from "./components/DashboardCards/RevenueCard";
 
 function App() {
   return (
@@ -34,9 +37,16 @@ function App() {
             <div>
               <div className="flex flex-col gap-4">
                 <MetricCard />
-                <div>
-                  <ActiveUsersCard />
+                <div className="flex gap-2">
+                  <div className="md:w-1/2">
+                    <ActiveUsersCard />
+                  </div>
+                  <div className="md:w-1/2">
+                    <ActiveUsersPieCard />
+                  </div>
                 </div>
+                <TotalStreamsCard />
+                <RevenueCard />
               </div>
             </div>
           </div>
