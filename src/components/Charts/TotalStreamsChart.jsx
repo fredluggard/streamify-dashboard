@@ -36,12 +36,22 @@ const TotalStreamsChart = () => {
   }));
 
   return (
-    <div className="w-full h-[250px] mt-4">
+    <div className="w-full h-[370px] mt-4">
       {data?.data && (
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={formattedData} layout="vertical" barSize={20}>
-            <XAxis type="number" domain={[0, 4000]} hide />
-            <YAxis type="category" dataKey="month" />
+            <XAxis
+              stroke="#fff"
+              tick={{ fontSize: 14, fill: "#fff" }}
+              type="number"
+              domain={[0, 4000]}
+            />
+            <YAxis
+              stroke="#fff"
+              tick={{ fontSize: 14, fill: "#fff" }}
+              type="category"
+              dataKey="month"
+            />
             <Tooltip cursor={{ fill: "transparent" }} />
             {/* Bar with actual totalStreams for each month */}
             <Bar dataKey="streams" fill="#D2FF03" radius={[10, 10, 10, 10]} />

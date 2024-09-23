@@ -25,6 +25,7 @@ export const UserProvider = ({ children }) => {
   const [activeUsers, setActiveUsers] = useState(Number(totalActiveUsers));
   const [percentActiveUsers, setPercentActiveUsers] = useState(0);
   const [totalStreams, setTotalStreams] = useState(0);
+  const [totalRevenue, setTotalRevenue] = useState(0)
 
   const updateNumberOfUsers = (newNumber) => {
     setNumberOfUsers(FormatNum(newNumber));
@@ -46,6 +47,10 @@ export const UserProvider = ({ children }) => {
     setTotalStreams(FormatNum(newNumber));
   };
 
+  const updateTotalRevenue = (newNumber) => {
+    setTotalRevenue(FormatNum(newNumber));
+  };
+
   return (
     <UserContext.Provider
       value={{
@@ -58,6 +63,8 @@ export const UserProvider = ({ children }) => {
         totalStreams,
         updateTotalStreams,
         calculatePercent,
+        totalRevenue,
+        updateTotalRevenue
       }}
     >
       {children}

@@ -105,7 +105,7 @@
       "streams": 250000,
       "peakStreams": 70000,
       "averageStreamsPerDay": 8000,
-      "growthRate": 25.00,
+      "growthRate": 25.0,
       "isGrowthPositive": true
     },
     {
@@ -113,7 +113,7 @@
       "streams": 180000,
       "peakStreams": 50000,
       "averageStreamsPerDay": 6000,
-      "growthRate": -28.00,
+      "growthRate": -28.0,
       "isGrowthPositive": false
     },
     {
@@ -145,7 +145,7 @@
       "streams": 450000,
       "peakStreams": 125000,
       "averageStreamsPerDay": 14500,
-      "growthRate": 12.50,
+      "growthRate": 12.5,
       "isGrowthPositive": true
     },
     {
@@ -254,15 +254,67 @@
   ],
   "revenue": [
     { "source": "Subscriptions", "amount": 50000 },
-    { "source": "Ads", "amount": 15000 },
-    { "source": "Merchandise", "amount": 12000 },
-    { "source": "Partnerships", "amount": 8000 },
+    { "source": "Ads", "amount": 87000 },
+    { "source": "Merchandise", "amount": 18780 },
+    { "source": "Partnerships", "amount": 18000 },
     { "source": "Events", "amount": 7000 },
-    { "source": "Sponsorships", "amount": 6000 },
+    { "source": "Sponsorships", "amount": 26000 },
     { "source": "Donations", "amount": 3000 },
-    { "source": "Licensing", "amount": 4000 },
+    { "source": "Licensing", "amount": 14000 },
     { "source": "Royalties", "amount": 2500 },
-    { "source": "Affiliate", "amount": 2000 }
+    { "source": "Affiliate", "amount": 5000 }
+  ],
+  "topArtist": [
+    {
+      "rank": 1,
+      "name": "Lue G. Lopez",
+      "streams": 158711,
+      "playtime": "37h 02m",
+      "followers": 90.2,
+      "likes": 16,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/12/21/21/15/man-4711375_1280.jpg",
+      "isLiked": false
+    },
+    {
+      "rank": 2,
+      "name": "Richard K. Nguyen",
+      "streams": 151658,
+      "playtime": "43h 48m",
+      "followers": 74.8,
+      "likes": 8,
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/08/31/11/43/ai-generated-8225027_640.png",
+      "isLiked": true
+    },
+    {
+      "rank": 3,
+      "name": "Lue G. Lopez",
+      "streams": 146723,
+      "playtime": "40h 33m",
+      "followers": 47.2,
+      "likes": 11,
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/10/30/12/26/automn-7557374_640.jpg",
+      "isLiked": false
+    },
+    {
+      "rank": 4,
+      "name": "Roger Y. Beck",
+      "streams": 141458,
+      "playtime": "49h 48m",
+      "followers": 81.4,
+      "likes": 6,
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/06/16/02/41/woman-5303971_640.jpg",
+      "isLiked": false
+    },
+    {
+      "rank": 5,
+      "name": "Lisa J. Huerta",
+      "streams": 134412,
+      "playtime": "39h 52m",
+      "followers": 49.3,
+      "likes": 7,
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/10/07/18/35/man-7505637_640.jpg",
+      "isLiked": false
+    }
   ],
   "songs": [
     { "id": 1, "title": "Song A", "artist": "Artist X", "streams": 10000 },

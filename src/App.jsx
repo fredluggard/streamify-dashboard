@@ -8,6 +8,7 @@ import ActiveUsersCard from "./components/DashboardCards/ActiveUsersCard";
 import ActiveUsersPieCard from "./components/DashboardCards/ActiveUsersPieCard";
 import TotalStreamsCard from "./components/DashboardCards/TotalStreamsCard";
 import RevenueCard from "./components/DashboardCards/RevenueCard";
+import TopArtists from "./components/DashboardCards/TopArtists";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
                 </div>
                 <TotalStreamsCard />
                 <RevenueCard />
+                <TopArtists />
               </div>
             </div>
           </div>

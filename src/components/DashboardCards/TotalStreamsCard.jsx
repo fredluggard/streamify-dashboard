@@ -7,7 +7,7 @@ const TotalStreamsCard = () => {
   const { totalStreams } = useUserContext();
 
   return (
-    <div className="bg-gray-800 text-white rounded-lg p-5 shadow-md md:w-full md:h-[400px] relative">
+    <div className="bg-gray-800 text-white rounded-lg p-5 shadow-md md:w-full md:h-[500px] relative">
       {/* Header Section */}
       <div className="flex justify-between items-center">
         <h3 className="text-lg font-semibold">Total Streams</h3>
