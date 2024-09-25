@@ -13,7 +13,7 @@ const UserCard = ({
   return (
     <div className="bg-gray-800 text-white p-4 rounded-lg shadow-md w-48 h-[300px] relative border-4 border-orange-400">
       {/* Rank */}
-      <div className="absolute -top-1 -left-1 bg-orange-400 text-white w-6 h-6 flex items-center justify-center rounded-tl-md rounded-br-md font-bold">
+      <div className="absolute -top-1 -left-1 bg-orange-400 text-white w-7 h-7 flex items-center justify-center rounded-tl-md rounded-br-md font-bold">
         {rank}
       </div>
 
@@ -32,24 +32,24 @@ const UserCard = ({
 
         <div className="flex gap-1 justify-center items-center">
           <p className="opacity-60">Streams:</p>
-          <span className="font-bold">{streams}</span>
+          <span className="font-semibold">{streams}</span>
         </div>
 
         <div className="flex gap-1 justify-center items-center">
           <p className="opacity-60">Playtime:</p>
-          <span className="font-bold">{playtime}</span>
+          <span className="font-semibold">{playtime}</span>
         </div>
 
         <div className="flex gap-1 justify-center items-center">
           <p className="opacity-60">Followers:</p>
-          <span className="font-bold">{followers}k</span>
+          <span className="font-semibold">{followers}k</span>
         </div>
       </div>
 
       {/* Like Button */}
       <div className="mt-4 flex items-center justify-center">
         <button className="flex items-center justify-center space-x-1 px-4 py-1 rounded-full bg-orange-500">
-          <span>{likes}</span>
+          <span>{`${likes}k`}</span>
           <span className="material-icons">Likes</span>
         </button>
       </div>

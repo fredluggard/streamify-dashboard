@@ -1,5 +1,5 @@
 import React from "react";
-import { HiOutlineUsers } from "react-icons/hi2";
+import { CiStreamOn } from "react-icons/ci";
 import UserCard from "./UserCard";
 import { useFetchUsersData } from "../../hooks/useFetchUsersData";
 import { FormatNum } from "../../utils/FormatNum";
@@ -19,7 +19,7 @@ const Leaderboard = () => {
     <div className="md:w-full md:min-h-[430px] flex flex-col gap-10 bg-gray-800 shadow-md rounded-lg p-5 ">
       <section className="md:ml-4">
         <div className="flex gap-2 items-center">
-          <HiOutlineUsers size={20} />
+          <CiStreamOn size={20} />
           <h3 className="text-xl">Most Streamed Artists</h3>
         </div>
       </section>

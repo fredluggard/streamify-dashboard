@@ -54,7 +54,7 @@ const TotalStreamsChart = () => {
             />
             <Tooltip cursor={{ fill: "transparent" }} />
             {/* Bar with actual totalStreams for each month */}
-            <Bar dataKey="streams" fill="#D2FF03" radius={[10, 10, 10, 10]} />
+            <Bar dataKey="streams" fill="#FDAC82" radius={[10, 10, 10, 10]} />
           </BarChart>
         </ResponsiveContainer>
       )}
