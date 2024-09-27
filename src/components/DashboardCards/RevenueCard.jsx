@@ -8,7 +8,7 @@ const RevenueCard = () => {
   const { totalRevenue } = useUserContext();
 
   return (
-    <div className="md:w-full md:h-[530px] flex flex-row gap-2">
+    <div className="md:w-full md:h-[33.125rem] flex flex-col md:flex-row gap-2">
       <div className="md:w-1/2 bg-gray-800 shadow-md rounded-lg p-5">
         <section className="md:ml-4">
           <div className="flex gap-2 my-4 items-center">

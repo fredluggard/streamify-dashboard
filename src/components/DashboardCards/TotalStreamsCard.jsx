@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
 import { CiStreamOn } from "react-icons/ci";
 import TotalStreamsChart from "../Charts/TotalStreamsChart";
@@ -15,11 +16,13 @@ const TotalStreamsCard = () => {
           <CiStreamOn size={20} />
           <h3 className="text-lg font-semibold">Total Streams</h3>
         </div>
-        <FiArrowUpRight size={20} />
+        <Link to="">
+          <FiArrowUpRight size={20} />
+        </Link>
       </div>
 
       {/* Total Streams */}
-      <div className="text-4xl font-bold mt-4">{totalStreams}</div>
+      <div className="text-2xl font-bold mt-4">{totalStreams}</div>
 
       {/* Bar Chart Section */}
       <div className="w-full h-auto mt-4">

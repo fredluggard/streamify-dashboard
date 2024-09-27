@@ -11,7 +11,7 @@ const UserCard = ({
   isLiked,
 }) => {
   return (
-    <div className="bg-gray-800 text-white p-4 rounded-lg shadow-md w-48 h-[300px] relative border-4 border-orange-400">
+    <div className="bg-gray-800 text-white p-4 rounded-lg shadow-md w-[95%] md:w-[12rem] h-[300px] relative border-4 border-orange-400">
       {/* Rank */}
       <div className="absolute -top-1 -left-1 bg-orange-400 text-white w-7 h-7 flex items-center justify-center rounded-tl-md rounded-br-md font-bold">
         {rank}

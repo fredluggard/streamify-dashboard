@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 import axios from "axios";
 
-const url = "http://localhost:4000";
+const url = "https://streamify-json.onrender.com";
 
 const fetchData = (endpoint) => {
   return axios.get(`${url}/${endpoint}`);

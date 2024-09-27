@@ -24,7 +24,7 @@ const Leaderboard = () => {
         </div>
       </section>
 
-      <div className="flex flex-wrap justify-center items-center space-x-4">
+      <div className="flex gap-2 flex-col md:flex-row flex-wrap justify-center items-center">
         {users?.map((user) => (
           <UserCard
             key={user.rank}
